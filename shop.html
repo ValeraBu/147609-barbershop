@@ -11,46 +11,36 @@
           <div class="logo">
             <img src="logo.png" alt="Barbershop">
           </div>
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="user-block">
-          <a class="login" href="#">Вход</a>
-        </div>
-      </div>
-    </header>
-    <main class="container">
+            <ul>
+              <li> <a href="#">Информация</a> </li>
+              <li> <a href="#">Новости</a> </li>
+              <li> <a href="#">Прайс-лист</a> </li>
+              <li> <a href="#">Магазин</a> </li>
+              <li> <a href="#">Контакты</a> </li>
+            </ul>
+       </nav>
+         <div class="user-block">
+           <a class="login" href="#">Вход</a>
+         </div>
+     </div>
+   </header>
+
+
+  <main class="container">
+    <div class="title">
       <h1>Средства для ухода</h1>
        <nav class="breadcrumbs">
          <ul>
-           <li>
-             <a href="#">Главная</a>
-           </li>
-           <li>
-             <a href="#">Магазин</a>
-           </li>
-           <li class="selected">
-             <a href="#">Средства для ухода</a>
-           </li>
+           <li> <a href="#">Главная</a> </li>
+           <li> <a href="#">Магазин</a> </li>
+           <li class="selected"> <a href="#">Средства для ухода</a> </li>
          </ul>
       </nav>
-      <seсtion class="form">
-        <form action="https://htmlacademy.ru" method="post">
+    </div>
+
+
+    <div class="content">
+        <form class="form" action="https://htmlacademy.ru" method="post">
           <h2>Производители</h2>
             <ul>
               <li>
@@ -95,81 +85,83 @@
            </ul>
                <input type="submit" value="Показать">
         </form>
-    </section>
+
+
+  <div class="content-cards">
      <div class="goods">
-       <article
-         <div class="img">
+       <article>
+         <div class="card-img">
            <a href="#">
              <img src="set.png" width="200" height="150" alt="Набор для путешествий">
            </a>
          </div>
-           <a href="#">Набор для путешествий<br>
-           "Baxter of California"</a>
+           <h3><a href="#">Набор для путешествий<br>
+           "Baxter of California"</a></h3>
          <div class="select-goods">
            <span class="price">2 900 руб.</span>
            <a class="btn buy" href="#">Купить</a>
          </div>
       </article>
       <article>
-         <div class="img">
+         <div class="card-img">
            <a href="#">
              <img src="conditioner.png" width="200" height="150" alt="Увлажняющий кондиционер">
            </a>
          </div>
-           <a href="#">Увлажняющий кондиционер<br>
-           "Baxter of California"</a>
+           <h3><a href="#">Увлажняющий кондиционер<br>
+           "Baxter of California"</a></h3>
          <div class="select-goods">
            <span class="price">750 руб.</span>
            <a class="btn buy" href="#">Купить</a>
          </div>
       </article>
       <article>
-        <div class="img">
+        <div class="card-img">
           <a href="#">
             <img src="gel.png" width="200" height="150" alt="Гель для волос">
           </a>
         </div>
-          <a href="#">Гель для волос<br>
-          "Suavecito"</a>
+          <h3><a href="#">Гель для волос<br>
+          "Suavecito"</a></h3>
         <div class="select-goods">
           <span class="price">290 руб.</span>
           <a class="btn buy" href="#">Купить</a>
         </div>
       </article>
       <article>
-        <div class="img">
+        <div class="card-img">
           <a href="#">
             <img src="clay.png" width="200" height="150" alt="Глина для укладки волос">
           </a>
         </div>
-          <a href="#">Глина для укладки волос<br>
-          "American crew"</a>
+          <h3><a href="#">Глина для укладки волос<br>
+          "American crew"</a></h3>
         <div class="select-goods">
           <span class="price">500 руб.</span>
           <a class="btn buy" href="#">Купить</a>
         </div>
       </article>
       <article>
-        <div class="img">
+        <div class="card-img">
           <a href="#">
             <img src="gel2.png" width="200" height="150" alt="Гель для волос">
           </a>
         </div>
-          <a href="#">Гель для волос<br>
-          "American crew"</a>
+          <h3><a href="#">Гель для волос<br>
+          "American crew"</a></h3>
         <div class="select-goods">
           <span class="price">300 руб.</span>
           <a class="btn buy" href="#">Купить</a>
         </div>
       </article>
       <article>
-        <div class="img">
+        <div class="card-img">
           <a href="#">
             <img src="set2.png" width="200" height="150" alt="Набор для бритья">
           </a>
         </div>
-          <a href="#">Набор для бритья<br>
-          "Baxter of California"</a>
+          <h3><a href="#">Набор для бритья<br>
+          "Baxter of California"</a></h3>
         <div class="select-goods">
           <span class="price">3900 руб.</span>
           <a class="btn buy" href="#">Купить</a>
@@ -178,11 +170,15 @@
   </div>
     <div class="pagination">
       <a class="btn" href="#">1</a>
-        <span class="now">2</span>
+        <span class="selected">2</span>
       <a class="btn" href="#">3</a>
       <a class="btn" href="#">4</a>
     </div>
-  </main>
+  </div>
+ </div>
+</main>
+
+
   <footer class="main-footer">
     <div class="container">
         <section class="footer-contacts">
