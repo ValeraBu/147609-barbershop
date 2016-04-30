@@ -1,89 +1,170 @@
 html,
 body {
-  width: 1200px;
-  height: 1170px;
+  min-width: 1122px;
+  min-height: 1750px;
   margin: 0;
   padding: 0;
 }
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+
+body {
+  background: url("../img/light-pattern.png") repeat 100%;
+  font-size: 16px;
+  line-height: normal;
+  color: #000000;
+  font-weight: bold;
+  font-family: PTSans NarrowBold, sans-serif;
 }
+
+h1 {
+  font-size: 30px;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 24px;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 14px;
+  font-style: normal;
+}
+
 .container {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .main-header {
   background-color: #000000;
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
-.main-navigation {
-  width: 780px;
-  height: 70px;
+
+.main-navigation li {
+  display:inline-block;
+  margin-right: 5px;
 }
+
+.main-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .logo {
   float: left;
-  width: 115px;
-  margin-right: 5px;
+  padding-top: 15px;
 }
-.nav {
+
+.nav{
   float: left;
-  width: 505px;
-  margin-right: 5px;
 }
+
+.nav li {
+  list-style: none;
+}
+
 .user-block {
-  float:right;
-  width: 50px;
+  float: right;
+  width: 140px;
+  padding-top: 15px;
 }
+
+.login{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .title {
   height: 100px;
   margin-bottom: 20px;
 }
+
 .content {
-  background: url("light-pattern.png") repeat 100%;
   width: 1000px;
   height: 685px;
+  padding-left: 0;
 }
+
+.gallery li{
+  list-style: none;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.breadcrumbs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.breadcrumbs ul {
+  padding-left: 0;
+}
+
 form {
   float: left;
   height: 570px;
   width: 160px;
 }
+
+.form li {
+  list-style: none;
+}
+
+.form ul {
+  display: inline-block;
+  padding-left: 0;
+}
+
 .content-cards {
   float: right;
   margin-top: 35px;
   margin-left: 50px;
 }
+
 article {
   float:left;
   width: 220px;
   height: 285px;
   margin-right: 20px;
 }
+
+.select-goods{
+  display: inline-block;
+}
+
 .goods1 article{
 margin-bottom: 50px;
 }
+
 .goods2 article{
   margin-bottom: 50px;
 }
+
 .main-footer {
-  display: table;
-  clear:both;
-  margin-top: 50px;
-  height: 180px;
-  width: 1200px;
+  margin-top: 80px;
 }
+
 .footer-contacts {
   float: left;
   width: 320px;
-  margin-right: 50px;
+  margin-right: 60px;
 }
+
 .footer-social {
   float: left;
   width: 180px;
 }
+
 .footer-copyright {
   float: right;
   width: 180px;
@@ -93,43 +174,13 @@ margin-bottom: 50px;
 .gallery {
   float: left;
   margin-bottom: 20px;
+  margin-left: -40px;
 }
+
 .gallery li {
   float:left;
 }
 
-
-
-body {
-  font-size: 14pt;
-  line-height: normal;
-  color: #000000;
-  font-weight: bold;
-  font-family: PTSans NarrowBold, sans-serif;
-}
-h1 {
-  font-size: 30pt;
-  font-style: normal;
-}
-h2 {
-  font-size: 24pt;
-  font-style: normal;
-}
-h3 {
-  font-size: 14pt;
-  font-style: normal;
-}
-li {
-  list-style: none;
-}
-.main-navigation li {
-  display: inline;
-  margin-right: 5px;
-}
-.main-navigation a {
-  color: #ffffff;
-}
-.breadcrumbs li {
-  display: inline;
-  margin-right: 5px;
+.description {
+  padding-top: 20px;
 }
